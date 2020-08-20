@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(45deg, #2779d8, #db8124);
+	color: white;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 800px;
+	margin: auto;
+	padding: 20px;
+	font-family: Halvetica;
+	background-color: #949189;
+	opacity: 0.6;
+	height: 100vh;
+}
+
+.head {
+	width: 100%;
+	text-align: center;
+}
+
+.head h1 {
+	font-family: Arial;
+}
+
+.head p {
+	margin-top: 20px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: start;
+	font-size: 20px;
+	margin: 10px 0;
+	width: 500px;
+}
+
+.form-group input, .form-group select {
+	width: 100%;
+	padding: 5px;
+	margin: 5px 0;
+	border-radius: 2px;
+	border: none;
+}
+
+input:focus, select:focus {
+	outline: none;
+	box-shadow: 0 0 2px white;
+}
+
+fieldset {
+	border: none;
+	width: 100%;
+}
+
+input[type='radio'], input[type='checkbox'] {	
+	width: auto;
+	margin-right: 2px;
+}
+
+.form-inline-group {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: start;
+}
+
+textarea {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 10vh;
+	text-align: left;
+	padding: 4px;
+	outline: none;
+	border: none;
+}
+
+textarea:focus {
+	box-shadow: 0 0 2px white;
+}
